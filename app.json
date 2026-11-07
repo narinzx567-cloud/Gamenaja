@@ -1,0 +1,10 @@
+{
+  "expo":{"name":"MoveEasy Driver","slug":"moveeasy-driver","scheme":"moveeasy","version":"0.1.0","orientation":"portrait",
+    "ios":{"supportsTablet":false,"infoPlist":{
+      "NSLocationWhenInUseUsageDescription":"ใช้ตำแหน่งเพื่อแสดงตำแหน่งรถระหว่างงานขนส่ง",
+      "NSLocationAlwaysAndWhenInUseUsageDescription":"ใช้ตำแหน่งเบื้องหลังเฉพาะระหว่างงานขนส่งที่คุณเริ่มไว้",
+      "UIBackgroundModes":["location"]}},
+    "android":{"permissions":["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION","ACCESS_BACKGROUND_LOCATION","FOREGROUND_SERVICE","FOREGROUND_SERVICE_LOCATION"]},
+    "plugins":[["expo-location",{"locationWhenInUsePermission":"ใช้ตำแหน่งระหว่างงานขนส่ง","locationAlwaysAndWhenInUsePermission":"ใช้ตำแหน่งเบื้องหลังเฉพาะระหว่างงานขนส่ง","isAndroidBackgroundLocationEnabled":true,"isAndroidForegroundServiceEnabled":true}]]
+  }
+}
